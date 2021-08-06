@@ -5,7 +5,7 @@ import useStyles from "./style";
 
 const Details = ({ title }) => {
   const classes = useStyles();
-  console.log(title);
+  // console.log(title);
 
   return (
     <Card className={title === "Income" ? classes.income : classes.expense}>
